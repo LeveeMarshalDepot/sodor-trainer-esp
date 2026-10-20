@@ -1,0 +1,13 @@
+[trainer]
+target_process = "WondersOfSodor.exe"
+require_admin = true
+esp_enabled = true
+esp_max_distance = 450.0
+teleport_hotkey = "F7"
+godmode_hotkey = "F8"
+overlay_fps = 144
+
+[trainer.feature_flags]
+engine_esp = true
+coach_esp = false
+show_waypoints = true
