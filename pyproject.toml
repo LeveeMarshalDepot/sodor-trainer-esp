@@ -1,0 +1,12 @@
+[project]
+name = "sodor-trainer-esp"
+version = "0.9.3"
+description = "ESP / godmode / warp trainer for Thomas & Friends: Wonders of Sodor"
+requires-python = ">=3.11"
+dependencies = ["tomli>=2.0.1", "pywin32>=306"]
+
+[project.scripts]
+sodor-trainer = "sodor_trainer.bootstrap:main"
+
+[tool.setuptools.packages.find]
+include = ["sodor_trainer*"]
